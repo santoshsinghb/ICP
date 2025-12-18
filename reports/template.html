@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Behave — Allure-style Report</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root{
+      --bg:#f5f7fb; --card:#fff; --text:#111827;
+      --passed:#16a34a; --failed:#dc2626; --skipped:#f59e0b;
+      --muted:#6b7280;
+    }
+    body{ margin:0; font-family: "Segoe UI", Roboto, Arial; background:var(--bg); color:var(--text); }
+    .header{ background:linear-gradient(90deg,#0ea5e9,#6366f1); color:white; padding:18px 24px; }
+    .header h1{ margin:0; font-size:20px; }
+    .wrap{ width:92%; margin:18px auto; }
+    .card{ background:var(--card); border-radius:10px; padding:16px; box-shadow:0 6px 18px rgba(0,0,0,0.06); margin-bottom:18px; }
+    .summary-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .summary-item h3{ margin:0; font-size:13px; color:var(--muted); }
+    .summary-item p{ margin:6px 0 0; font-size:20px; font-weight:700; }
+    .chart-area{ max-width:320px; margin:0 auto; text-align:center;}
+    .sc-list{ width:92%; margin:0 auto 40px; }
+    .scenario{ border-left:6px solid #ddd; padding:12px; border-radius:8px; margin-bottom:12px; background:var(--card); display:block;}
+    .scenario.passed{ border-left-color:var(--passed); }
+    .scenario.failed{ border-left-color:var(--failed); }
+    .scenario.skipped{ border-left-color:var(--skipped); }
+    .sc-header{ display:flex; justify-content:space-between; align-items:center; cursor:pointer; user-select:none; }
+    .sc-title{ font-weight:600; font-size:15px; }
+    .badge{ padding:6px 10px; border-radius:8px; color:white; font-weight:700; font-size:12px; }
+    .badge.passed{ background:var(--passed); } .badge.failed{ background:var(--failed); } .badge.skipped{ background:var(--skipped); }
+    .sc-body{ margin-top:10px; display:none; } /* collapsed by default */
+    .step{ padding:8px 0; border-bottom:1px dashed #eee; }
+    .step strong{ display:block; }
+    .meta{ color:var(--muted); font-size:13px; margin-top:6px; }
+    .duration-bar{ height:8px; border-radius:6px; background:var(--passed); margin-top:6px; max-width:600px;}
+    .feature-name{ color:var(--muted); font-size:13px; margin-bottom:6px; }
+    .small{ font-size:12px; color:var(--muted); }
+    @media (max-width:800px){
+      .summary-grid{ grid-template-columns:repeat(2,1fr); }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="wrap">
+      <h1>Automation Report — Behave</h1>
+      <div class="small" style="float:right; color:rgba(255,255,255,0.9); font-size:13px;">Generated: {{ now }}</div>
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-top:18px;">
+    <div class="card">
+      <div class="summary-grid">
+        <div class="summary-item"><h3>Total Scenarios</h3><p>{{ summary.total }}</p></div>
+        <div class="summary-item"><h3>Passed</h3><p>{{ summary.passed }}</p></div>
+        <div class="summary-item"><h3>Failed</h3><p>{{ summary.failed }}</p></div>
+        <div class="summary-item"><h3>Total Time (s)</h3><p>{{ summary.total_duration }}</p></div>
+      </div>
+    </div>
+
+    <div class="card chart-area">
+      <h3 style="margin-top:0;">Execution Overview</h3>
+      <div style="width:240px; height:240px; margin:12px auto;">
+        <canvas id="pieChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="sc-list">
+    <!-- scenario list will be rendered by JS -->
+  </div>
+
+  <!-- Inject data safely -->
+  <script id="report-data" type="application/json">
+    {
+      "scenarios": {{ scenarios|tojson|safe }},
+      "summary": {{ summary|tojson|safe }}
+    }
+  </script>
+
+  <script>
+    // parse
+    const raw = document.getElementById('report-data').textContent;
+    let payload = {};
+    try { payload = JSON.parse(raw); } catch (e) { console.error("Invalid payload", e); payload = {scenarios:[], summary:{}}; }
+    const scenarios = payload.scenarios || [];
+    const summary = payload.summary || { passed:0, failed:0, skipped:0, total:0, total_duration:0 };
+
+    // chart
+    const ctx = document.getElementById('pieChart').getContext('2d');
+    new Chart(ctx, {
+      type:'pie',
+      data: {
+        labels:['Passed','Failed','Skipped'],
+        datasets:[{
+          data:[ summary.passed || 0, summary.failed || 0, summary.skipped || 0 ],
+          backgroundColor:['#16a34a','#dc2626','#f59e0b']
+        }]
+      },
+      options:{ responsive:true, maintainAspectRatio:true }
+    });
+
+    // render scenarios grouped by feature
+    const container = document.querySelector('.sc-list');
+
+    // group by feature
+    const grouped = {};
+    scenarios.forEach(s => {
+      const f = s.feature || 'Feature';
+      if (!grouped[f]) grouped[f] = [];
+      grouped[f].push(s);
+    });
+
+    Object.keys(grouped).forEach(featureName => {
+      const featureCard = document.createElement('div');
+      featureCard.className = 'card';
+      const fn = document.createElement('div');
+      fn.className = 'feature-name';
+      fn.textContent = featureName;
+      featureCard.appendChild(fn);
+
+      // add each scenario under this feature
+      grouped[featureName].forEach((sc, idx) => {
+        const scDiv = document.createElement('div');
+        scDiv.className = 'scenario ' + (sc.status || '');
+
+        // header
+        const hdr = document.createElement('div');
+        hdr.className = 'sc-header';
+        hdr.onclick = () => {
+          const body = scDiv.querySelector('.sc-body');
+          if (body) body.style.display = (body.style.display === 'block') ? 'none' : 'block';
+        };
+
+        const left = document.createElement('div');
+        left.className = 'sc-title';
+        left.textContent = sc.scenario;
+
+        const right = document.createElement('div');
+        const badge = document.createElement('span');
+        badge.className = 'badge ' + (sc.status || '');
+        badge.textContent = (sc.status || '').toUpperCase();
+        right.appendChild(badge);
+
+        hdr.appendChild(left);
+        hdr.appendChild(right);
+        scDiv.appendChild(hdr);
+
+        // body (collapsed by default)
+        const body = document.createElement('div');
+        body.className = 'sc-body';
+
+        // meta
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        meta.textContent = 'Duration: ' + (sc.duration || 0) + ' s    ' + ((sc.tags && sc.tags.length) ? (' | Tags: ' + sc.tags.join(', ')) : '');
+        body.appendChild(meta);
+
+        // steps
+        sc.steps.forEach(st => {
+          const stDiv = document.createElement('div');
+          stDiv.className = 'step';
+          const stName = document.createElement('strong');
+          stName.textContent = (st.keyword ? (st.keyword + ' ') : '') + (st.name || '');
+          stDiv.appendChild(stName);
+
+          const stBadge = document.createElement('span');
+          stBadge.className = 'badge ' + (st.status || '');
+          stBadge.textContent = (st.status || '').toUpperCase();
+          stBadge.style.marginLeft = '12px';
+          stDiv.appendChild(stBadge);
+
+          // duration bar
+          const bar = document.createElement('div');
+          bar.className = 'duration-bar';
+          const width = Math.min(600, Math.round((st.duration || 0) * 12) + 20);
+          bar.style.width = width + 'px';
+          stDiv.appendChild(bar);
+
+          body.appendChild(stDiv);
+        });
+
+        scDiv.appendChild(body);
+        featureCard.appendChild(scDiv);
+      });
+
+      container.appendChild(featureCard);
+    });
+
+    // ensure scenarios are collapsed (already hidden by CSS)
+    // done
+  </script>
+</body>
+</html>

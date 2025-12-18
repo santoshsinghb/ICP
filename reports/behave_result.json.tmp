@@ -1,0 +1,2532 @@
+[
+    {
+        "scenario": "Login with valid credentials for COMMUNITY ADMIN",
+        "status": "passed",
+        "duration": 32.552,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 5.588
+            },
+            {
+                "name": "I enter valid Community Admin's username and password",
+                "status": "passed",
+                "duration": 3.031
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.1
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 2.093
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.204
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.117
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 8.29
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for COMMUNITY ADMIN",
+        "status": "passed",
+        "duration": 102.612,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 4.571
+            },
+            {
+                "name": "I enter valid Community Admin's username and password",
+                "status": "passed",
+                "duration": 3.103
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.096
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 2.167
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.132
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.326
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.144
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.243
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.148
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.28
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.104
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.484
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.197
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.353
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.138
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.212
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.154
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.365
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.447
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.234
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.426
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.29
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.437
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.259
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.431
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.204
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.373
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.223
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.135
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.213
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.165
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.112
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 11.672
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for SHIPPING AGENT",
+        "status": "passed",
+        "duration": 34.589,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 12.583
+            },
+            {
+                "name": "I enter valid Shipping Agent's username and password",
+                "status": "passed",
+                "duration": 1.804
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.115
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.087
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.214
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.162
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 4.214
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for SHIPPING AGENT",
+        "status": "passed",
+        "duration": 95.63,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 2.222
+            },
+            {
+                "name": "I enter valid Shipping Agent's username and password",
+                "status": "passed",
+                "duration": 1.204
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.102
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.121
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.2
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.289
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.109
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.273
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.234
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.195
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.182
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.374
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.157
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.235
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.126
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.2
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.222
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.199
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.42
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.236
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.38
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.241
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.414
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.227
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.419
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.269
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.368
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.238
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.246
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.207
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.187
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.441
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 6.729
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for MARINE DEPARTMENT",
+        "status": "passed",
+        "duration": 43.78,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 3.598
+            },
+            {
+                "name": "I enter valid Marine Department's username and password",
+                "status": "passed",
+                "duration": 1.241
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.137
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.107
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.173
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.135
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 23.752
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for MARINE DEPARTMENT",
+        "status": "passed",
+        "duration": 118.873,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 15.193
+            },
+            {
+                "name": "I enter valid Marine Department's username and password",
+                "status": "passed",
+                "duration": 2.564
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.108
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 6.203
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.148
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 4.555
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.117
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.265
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.188
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.254
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.136
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.305
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.141
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.329
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.145
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.212
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.122
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.256
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.426
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.235
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.4
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.268
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.456
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.24
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.394
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.185
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.368
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.28
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.183
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.205
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.197
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.143
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 10.4
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for MINISTRY",
+        "status": "passed",
+        "duration": 103.708,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 46.704
+            },
+            {
+                "name": "I enter valid Ministry's username and password",
+                "status": "passed",
+                "duration": 4.601
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.113
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 22.427
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.145
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.126
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 16.029
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for MINISTRY",
+        "status": "passed",
+        "duration": 126.755,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 0.162
+            },
+            {
+                "name": "I enter valid Ministry's username and password",
+                "status": "passed",
+                "duration": 13.998
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 18.722
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.085
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.172
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.394
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.164
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.325
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.253
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.351
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.151
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.572
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.183
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.367
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.153
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.253
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.165
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.428
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.369
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.364
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.366
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.316
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.377
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.277
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.352
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.28
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.36
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.357
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.192
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.295
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.217
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.125
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 17.301
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for PRIVATE JETTY",
+        "status": "passed",
+        "duration": 70.191,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 12.388
+            },
+            {
+                "name": "I enter valid Private Jetty's username and password",
+                "status": "passed",
+                "duration": 1.834
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 23.132
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.093
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.139
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.157
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 15.779
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for PRIVATE JETTY",
+        "status": "passed",
+        "duration": 95.668,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 2.518
+            },
+            {
+                "name": "I enter valid Private Jetty's username and password",
+                "status": "passed",
+                "duration": 1.416
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 8.347
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.087
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.181
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.321
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.127
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.302
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.223
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.262
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.137
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.348
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.133
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.305
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.145
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.225
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.164
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.253
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.375
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.267
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.387
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.385
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.374
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.232
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.385
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.264
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.345
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.292
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.798
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.275
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.173
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.116
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 7.982
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for TERMINAL OPERATOR",
+        "status": "passed",
+        "duration": 68.44,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 14.769
+            },
+            {
+                "name": "I enter valid Terminal Operator's username and password",
+                "status": "passed",
+                "duration": 1.62
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 22.635
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.096
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.198
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.233
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 18.833
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for TERMINAL OPERATOR",
+        "status": "passed",
+        "duration": 104.569,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 3.867
+            },
+            {
+                "name": "I enter valid Terminal Operator's username and password",
+                "status": "passed",
+                "duration": 2.283
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.101
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 4.709
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.167
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.289
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.126
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.307
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.167
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.285
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.185
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.332
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.146
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.25
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.141
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.172
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.567
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 4.205
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.424
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.226
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.347
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.246
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.39
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.252
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.433
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.264
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.402
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.266
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.169
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.203
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.181
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.494
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 6.369
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for IMMIGRATION",
+        "status": "passed",
+        "duration": 59.641,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 0.68
+            },
+            {
+                "name": "I enter valid Immigration's username and password",
+                "status": "passed",
+                "duration": 15.899
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.132
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 12.627
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.14
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.194
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 16.234
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for IMMIGRATION",
+        "status": "passed",
+        "duration": 122.255,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 0.373
+            },
+            {
+                "name": "I enter valid Immigration's username and password",
+                "status": "passed",
+                "duration": 14.927
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 19.291
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.077
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.205
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.491
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.2
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.348
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.207
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.336
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.173
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.49
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.159
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.347
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.151
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.265
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.177
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.31
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.357
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.367
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.377
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.309
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.357
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.291
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.349
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.305
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.405
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.308
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.203
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.303
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.217
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.756
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 10.502
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for CUSTOMS",
+        "status": "passed",
+        "duration": 58.067,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 11.651
+            },
+            {
+                "name": "I enter valid Custom's username and password",
+                "status": "passed",
+                "duration": 1.379
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 15.687
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.067
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.132
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.125
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 11.39
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for CUSTOMS",
+        "status": "passed",
+        "duration": 124.464,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 11.631
+            },
+            {
+                "name": "I enter valid Custom's username and password",
+                "status": "passed",
+                "duration": 1.712
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.108
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 13.546
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.173
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.513
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.157
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.302
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.214
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.289
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.156
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.307
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.123
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.407
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.119
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.251
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.153
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.269
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.395
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.258
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.382
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.259
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.392
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.253
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.417
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.263
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.382
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.349
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.254
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.344
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.619
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.123
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 17.62
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for TERMINAL USER",
+        "status": "passed",
+        "duration": 73.95,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 17.469
+            },
+            {
+                "name": "I enter valid Terminal Operator's username and password",
+                "status": "passed",
+                "duration": 5.222
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 20.676
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.083
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.174
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.139
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 18.685
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for TERMINAL USER",
+        "status": "passed",
+        "duration": 147.451,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 15.732
+            },
+            {
+                "name": "I enter valid Terminal Operator's username and password",
+                "status": "passed",
+                "duration": 1.288
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 23.685
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 1.074
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.187
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.383
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.24
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.294
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.203
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.225
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.226
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.253
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.104
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.283
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.115
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.2
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.151
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.226
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.461
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.219
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.366
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.234
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.379
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.203
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.414
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.234
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.417
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.336
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.177
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.236
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.166
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.701
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 22.285
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Login with valid credentials for PORT_OPERATOR",
+        "status": "passed",
+        "duration": 72.079,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 25.638
+            },
+            {
+                "name": "I enter valid Port Operator's username and password",
+                "status": "passed",
+                "duration": 2.344
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.121
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 16.489
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.156
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.182
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 13.709
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "Check for display of all pages for PORT_OPERATOR",
+        "status": "passed",
+        "duration": 118.244,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 16.115
+            },
+            {
+                "name": "I enter valid Port Operator's username and password",
+                "status": "passed",
+                "duration": 1.428
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.185
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 9.277
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.216
+            },
+            {
+                "name": "I search for Registration Template in the sidebar",
+                "status": "passed",
+                "duration": 3.451
+            },
+            {
+                "name": "I navigate to Registration Template page",
+                "status": "passed",
+                "duration": 2.169
+            },
+            {
+                "name": "I search for Transaction Template in the sidebar",
+                "status": "passed",
+                "duration": 3.37
+            },
+            {
+                "name": "I navigate to Transaction Template page",
+                "status": "passed",
+                "duration": 1.288
+            },
+            {
+                "name": "I search for Registration Requests in the sidebar",
+                "status": "passed",
+                "duration": 3.316
+            },
+            {
+                "name": "I navigate to Registration Requests page",
+                "status": "passed",
+                "duration": 1.152
+            },
+            {
+                "name": "I search for Registration Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.417
+            },
+            {
+                "name": "I navigate to Registration Approval Workflow page",
+                "status": "passed",
+                "duration": 1.153
+            },
+            {
+                "name": "I search for Transaction Approval Workflow in the sidebar",
+                "status": "passed",
+                "duration": 3.357
+            },
+            {
+                "name": "I navigate to Transaction Approval Workflow page",
+                "status": "passed",
+                "duration": 1.141
+            },
+            {
+                "name": "I search for Vessel Profile in the sidebar",
+                "status": "passed",
+                "duration": 3.283
+            },
+            {
+                "name": "I navigate to Vessel Profile page",
+                "status": "passed",
+                "duration": 1.162
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.399
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.371
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.649
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.38
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.466
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.36
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.272
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.399
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.396
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.364
+            },
+            {
+                "name": "I search for Stakeholder Management  in the sidebar",
+                "status": "passed",
+                "duration": 3.42
+            },
+            {
+                "name": "I navigate to Stakeholder Management page",
+                "status": "passed",
+                "duration": 1.191
+            },
+            {
+                "name": "I search for Terminal Configuration  in the sidebar",
+                "status": "passed",
+                "duration": 3.41
+            },
+            {
+                "name": "I navigate to Terminal Configuration page",
+                "status": "passed",
+                "duration": 1.196
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.124
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 9.995
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "NEW Shipping Agent should be able to Register new Vessel",
+        "status": "passed",
+        "duration": 55.036,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 0.177
+            },
+            {
+                "name": "I enter NEW Shipping Agent's username and password",
+                "status": "passed",
+                "duration": 7.364
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.101
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 4.137
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.187
+            },
+            {
+                "name": "I search for Vessel Registration in the sidebar",
+                "status": "passed",
+                "duration": 3.243
+            },
+            {
+                "name": "I navigate to Vessel Registration page",
+                "status": "passed",
+                "duration": 2.353
+            },
+            {
+                "name": "NEW Shipping Agent clicks on Create New button in Vessel Registration",
+                "status": "passed",
+                "duration": 0.227
+            },
+            {
+                "name": "Register New Vessel page should be displayed",
+                "status": "passed",
+                "duration": 1.664
+            },
+            {
+                "name": "I enter vessel name on Register New Vessel page",
+                "status": "passed",
+                "duration": 2.7
+            },
+            {
+                "name": "I enter IMO number on Register New Vessel page",
+                "status": "passed",
+                "duration": 1.2
+            },
+            {
+                "name": "I enter Call Sign on Register New Vessel page",
+                "status": "passed",
+                "duration": 1.222
+            },
+            {
+                "name": "I enter Official Number on Register New Vessel page",
+                "status": "passed",
+                "duration": 1.245
+            },
+            {
+                "name": "I click on Avatar button",
+                "status": "passed",
+                "duration": 2.149
+            },
+            {
+                "name": "I click on ICP Sign Out button",
+                "status": "passed",
+                "duration": 8.359
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "NEW Shipping Agent should be able to create SCN",
+        "status": "passed",
+        "duration": 61.03,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 10.17
+            },
+            {
+                "name": "I enter NEW Shipping Agent's username and password",
+                "status": "passed",
+                "duration": 1.33
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.154
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 9.242
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.217
+            },
+            {
+                "name": "I search for Ship Call Number  in the sidebar",
+                "status": "passed",
+                "duration": 3.217
+            },
+            {
+                "name": "I navigate to Ship Call Number",
+                "status": "passed",
+                "duration": 2.495
+            },
+            {
+                "name": "Validate SCN page header",
+                "status": "passed",
+                "duration": 3.531
+            },
+            {
+                "name": "User clicks on Create SCN button",
+                "status": "passed",
+                "duration": 1.238
+            },
+            {
+                "name": "Validate Create New ePAN page header",
+                "status": "passed",
+                "duration": 11.455
+            },
+            {
+                "name": "User enters valid Vessel ID",
+                "status": "passed",
+                "duration": 1.349
+            },
+            {
+                "name": "User clicks on GO button",
+                "status": "passed",
+                "duration": 2.152
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "NEW Shipping Agent should be able to create ePAN",
+        "status": "passed",
+        "duration": 40.344,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 9.084
+            },
+            {
+                "name": "I enter NEW Shipping Agent's username and password",
+                "status": "passed",
+                "duration": 1.338
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.194
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 7.104
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.155
+            },
+            {
+                "name": "I search for Pre-Arrival Notification  in the sidebar",
+                "status": "passed",
+                "duration": 3.344
+            },
+            {
+                "name": "I navigate to Pre-Arrival Notification",
+                "status": "passed",
+                "duration": 2.363
+            },
+            {
+                "name": "Validate ePAN page header",
+                "status": "passed",
+                "duration": 0.08
+            },
+            {
+                "name": "User clicks on Create ePAN button",
+                "status": "passed",
+                "duration": 0.581
+            },
+            {
+                "name": "Validate Create New ePAN page header",
+                "status": "passed",
+                "duration": 1.181
+            },
+            {
+                "name": "User enters SCN Number",
+                "status": "passed",
+                "duration": 1.278
+            },
+            {
+                "name": "User clicks on EPAN GO button",
+                "status": "passed",
+                "duration": 2.201
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "NEW Shipping Agent should be able to create Arrival Clearance",
+        "status": "passed",
+        "duration": 44.255,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 3.03
+            },
+            {
+                "name": "I enter NEW Shipping Agent's username and password",
+                "status": "passed",
+                "duration": 1.308
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.103
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 4.429
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.135
+            },
+            {
+                "name": "I search for Arrival Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.229
+            },
+            {
+                "name": "I navigate to Arrival Clearance",
+                "status": "passed",
+                "duration": 2.409
+            },
+            {
+                "name": "Validate Arrival Clearance page header",
+                "status": "passed",
+                "duration": 2.129
+            },
+            {
+                "name": "User clicks on Create Arrival Clearance button",
+                "status": "passed",
+                "duration": 4.736
+            },
+            {
+                "name": "Validate Create New Arrival Clearance page header",
+                "status": "passed",
+                "duration": 1.049
+            },
+            {
+                "name": "User enters SCN Number",
+                "status": "passed",
+                "duration": 1.306
+            },
+            {
+                "name": "User clicks on Arrival Clearance GO button",
+                "status": "passed",
+                "duration": 2.232
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    },
+    {
+        "scenario": "NEW Shipping Agent should be able to create Departure Clearance",
+        "status": "passed",
+        "duration": 34.039,
+        "steps": [
+            {
+                "name": "I open the login page",
+                "status": "passed",
+                "duration": 6.57
+            },
+            {
+                "name": "I enter NEW Shipping Agent's username and password",
+                "status": "passed",
+                "duration": 1.29
+            },
+            {
+                "name": "I click the ICP SignIn button",
+                "status": "passed",
+                "duration": 5.106
+            },
+            {
+                "name": "I should see the dashboard page",
+                "status": "passed",
+                "duration": 3.899
+            },
+            {
+                "name": "I click to expand sidebar",
+                "status": "passed",
+                "duration": 3.167
+            },
+            {
+                "name": "I search for Departure Clearance  in the sidebar",
+                "status": "passed",
+                "duration": 3.213
+            },
+            {
+                "name": "I navigate to Departure Clearance",
+                "status": "passed",
+                "duration": 2.342
+            },
+            {
+                "name": "Validate Departure Clearance page header",
+                "status": "passed",
+                "duration": 0.036
+            },
+            {
+                "name": "User clicks on Create Departure Clearance button",
+                "status": "passed",
+                "duration": 4.254
+            },
+            {
+                "name": "Validate Create New Departure Clearance page header",
+                "status": "passed",
+                "duration": 1.047
+            }
+        ],
+        "tags": [],
+        "screenshot": null
+    }
+]

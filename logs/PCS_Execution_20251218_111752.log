@@ -1,0 +1,26 @@
+Execution Started
+Scenario Started: Login with valid credentials for COMMUNITY ADMIN
+Scenario Started: Check for display of all pages for COMMUNITY ADMIN
+Scenario Started: Login with valid credentials for SHIPPING AGENT
+Scenario Started: Check for display of all pages for SHIPPING AGENT
+Scenario Started: Login with valid credentials for MARINE DEPARTMENT
+Scenario Started: Check for display of all pages for MARINE DEPARTMENT
+Scenario Started: Login with valid credentials for MINISTRY
+Scenario Started: Check for display of all pages for MINISTRY
+Scenario Started: Login with valid credentials for PRIVATE JETTY
+Scenario Started: Check for display of all pages for PRIVATE JETTY
+Scenario Started: Login with valid credentials for TERMINAL OPERATOR
+Scenario Started: Check for display of all pages for TERMINAL OPERATOR
+Scenario Started: Login with valid credentials for IMMIGRATION
+Scenario Started: Check for display of all pages for IMMIGRATION
+Scenario Started: Login with valid credentials for CUSTOMS
+Scenario Started: Check for display of all pages for CUSTOMS
+Scenario Started: Login with valid credentials for TERMINAL USER
+Scenario Started: Check for display of all pages for TERMINAL USER
+Scenario Started: Login with valid credentials for PORT_OPERATOR
+Scenario Started: Check for display of all pages for PORT_OPERATOR
+Scenario Started: NEW Shipping Agent should be able to Register new Vessel
+Scenario Started: NEW Shipping Agent should be able to create SCN
+Scenario Started: NEW Shipping Agent should be able to create ePAN
+Scenario Started: NEW Shipping Agent should be able to create Arrival Clearance
+Scenario Started: NEW Shipping Agent should be able to create Departure Clearance

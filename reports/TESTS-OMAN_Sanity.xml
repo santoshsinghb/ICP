@@ -1,0 +1,331 @@
+<testsuite name="OMAN_Sanity.Oman Sanity" tests="6" errors="2" failures="0" skipped="4" time="435.911607" timestamp="2025-12-11T17:49:01.271792" hostname="HARSHAD-APRAJ"><testcase classname="OMAN_Sanity.Oman Sanity" name="Oman Export FDC flow" status="error" time="435.911607"><error type="WebDriverException" message="Message: target frame detached&#10;  (failed to check if window was closed: disconnected: Unable to receive message from renderer)&#10;  (Session info: chrome=142.0.7444.176)&#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0xbe4103&#10;&#09;0xbe4144&#10;&#09;0x9ee56b&#10;&#09;0x9de91d&#10;&#09;0x9ddaca&#10;&#09;0x9fc714&#10;&#09;0xa63475&#10;&#09;0xa7e749&#10;&#09;0xa5c706&#10;&#09;0xa2da30&#10;&#09;0xa2ed54&#10;&#09;0xe557b4&#10;&#09;0xe5098a&#10;&#09;0xc0c392&#10;&#09;0xbfc4c8&#10;&#09;0xc0324d&#10;&#09;0xbec478&#10;&#09;0xbec63c&#10;&#09;0xbd67ca&#10;&#09;0x77147ba9&#10;&#09;0x77c3c3ab&#10;&#09;0x77c3c32f">
+<![CDATA[
+Failing step: And Select the required Airline for Export ... error in 28.107s
+Location: features/OMAN_Sanity.feature:52
+Traceback (most recent call last):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1991, in run
+    match.run(runner.context)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\matchers.py", line 105, in run
+    self.func(context, *args, **kwargs)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "features\steps\OMAN_steps.py", line 405, in step_impl
+    context.page.select_export_airline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Harshad\Automation\OMAN\pages\Actions\OMAN\OMAN_page.py", line 1170, in select_export_airline
+    long_wait.until(
+    ~~~~~~~~~~~~~~~^
+        EC.visibility_of_element_located(ExportLocators.ASSIGN_AIRLINE_DROPDOWN)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\support\expected_conditions.py", line 217, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=142.0.7444.176)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbe4103
+	0xbe4144
+	0x9ee56b
+	0x9de91d
+	0x9ddaca
+	0x9fc714
+	0xa63475
+	0xa7e749
+	0xa5c706
+	0xa2da30
+	0xa2ed54
+	0xe557b4
+	0xe5098a
+	0xc0c392
+	0xbfc4c8
+	0xc0324d
+	0xbec478
+	0xbec63c
+	0xbd67ca
+	0x77147ba9
+	0x77c3c3ab
+	0x77c3c32f
+
+]]>
+</error><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman Export FDC flow
+    Given I launch the OMAN browser ... passed in 3.971s
+    When I open the OMAN login page ... passed in 26.472s
+    And I enter valid OMAN Freight Forwarder username and password ... passed in 4.181s
+    And I click the OMAN SignIn button ... passed in 3.326s
+    And I should see the OMAN HOME page ... passed in 40.053s
+    And Ad-hoc Requests label should be displayed ... passed in 11.345s
+    And I hover over the OMAN sidebar to expand it ... passed in 1.436s
+    And I search for Job Maintenance in the sidebar ... passed in 14.610s
+    And I click on Export Job Maintenance ... passed in 2.229s
+    And I should see the Export Job List label ... passed in 35.776s
+    And Click on Export New Job button ... passed in 14.858s
+    And Click on Export JOB DETAILS - FULL DATA CAPTURE ... passed in 0.983s
+    And Check for the Create Export Job page header ... passed in 1.996s
+    And Select required Export Shipper ... passed in 26.202s
+    And Select required Export Consignee ... passed in 18.608s
+    And Enter Export Reference Number ... passed in 12.321s
+    And Select Export Shipment Date ... passed in 10.627s
+    And Select Export Shipment Time ... passed in 14.002s
+    And Select Export Destination Airports ... passed in 19.123s
+    And Enter Export Total pieces ... passed in 3.978s
+    And Enter Export Gross Weight ... passed in 3.917s
+    And Enter Export Total Volume ... passed in 3.867s
+    And Enter Export Nature of Goods ... passed in 5.289s
+    And Enter Export Commodity ... passed in 13.352s
+    And Enter Export SHC ... passed in 8.236s
+    And Click on Export SAVE JOB ... passed in 6.426s
+    And I should see the Export Job List label ... passed in 4.166s
+    And Click on Edit button on Export Job List ... passed in 92.268s
+    And I should see Export Jobs Details page ... passed in 3.141s
+    And Click on Export ASSIGN AWB button ... passed in 1.045s
+    And Select the required Airline for Export ... error in 28.107s
+    And Enter the MAWB number ... skipped in 0.000s
+    And Click on Export Assign AWB SAVE button ... skipped in 0.000s
+    And Click on Export Flights tab ... skipped in 0.000s
+    And Click on Export MANUAL BOOKING button ... skipped in 0.000s
+    And Enter Export Airline No ... skipped in 0.000s
+    And Select Export Airline Time ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+[SCENARIO] Using Excel row 1 for: Oman Export FDC flow
+[BROWSER] Launching chrome for scenario: Oman Export FDC flow
+
+[AFTER-SCENARIO] Oman Export FDC flow → ERROR
+[SCREENSHOT] Failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbe4103
+	0xbe4144
+	0x9ee71d
+	0x9dd910
+	0x9fc714
+	0xa63475
+	0xa7e749
+	0xa5c706
+	0xa2da30
+	0xa2ed54
+	0xe557b4
+	0xe5098a
+	0xc0c392
+	0xbfc4c8
+	0xc0324d
+	0xbec478
+	0xbec63c
+	0xbd67ca
+	0x77147ba9
+	0x77c3c3ab
+	0x77c3c32f
+
+
+INSIDE DASHBOARD PAGE
+[SOFT-FAIL] Step failed but continuing: Ad-hoc Requests label should be displayed
+❌ Failed to click sidebar toggle: Message: element click intercepted: Element <div _ngcontent-ng-cli-universal-c417337384="" class="sidebar-toggler-box flex-grow-0">...</div> is not clickable at point (26, 105). Other element would receive the click: <div _ngcontent-ng-cli-universal-c2720958613="" class="ngx-spinner-overlay ng-tns-c2720958613-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(97, 110, 124, 0.35); z-index: 99999; position: fixed; opacity: 1;">...</div>
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbe4103
+	0xbe4144
+	0x9ee71d
+	0xa40580
+	0xa3e8e3
+	0xa3c387
+	0xa3b5fd
+	0xa2fd65
+	0xa5c90c
+	0xa2f7c4
+	0xa5cac4
+	0xa7ee17
+	0xa5c706
+	0xa2da30
+	0xa2ed54
+	0xe557b4
+	0xe5098a
+	0xc0c392
+	0xbfc4c8
+	0xc0324d
+	0xbec478
+	0xbec63c
+	0xbd67ca
+	0x77147ba9
+	0x77c3c3ab
+	0x77c3c32f
+
+🔍 Trying to enter 'search_text' in the LCCT sidebar search...
+✅ Entered 'search_text' in sidebar search.
+INSIDE Shipment Listing PAGE
+✅ Clicked Export New Job
+✅ Clicked: Export JOB DETAILS - FULL DATA CAPTURE
+✅ Verified: Create Export Job page header displayed
+✅ Selected Export Shipper: EXPORT SHIPPER FROM MUSCAT
+✅ Selected Export Consignee: AIR CONSIGNEE
+✅ Export Reference Number entered: AUTOMATION400
+✅ Export Shipment Date set as Today
+✅ Export Shipment Time set: 23:23
+✅ Export Total pieces: 100
+✅ Export Gross Weight: 1000
+✅ Export Total Volume: 1000
+✅ Export Nature of Goods: GENERAL
+✅ Export Commodity: GEN
+✅ Export SHC: Printed Books
+✅ Clicked on Export SAVE JOB
+INSIDE Shipment Listing PAGE
+🟩 Clicked EDIT on Job List. Waiting 1 minute to check again...
+🟩 ASSIGN AWB button is visible, stopping EDIT loop.
+INSIDE Shipment Listing PAGE
+Clicked Export ASSIGN AWB button
+
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+
+
+
+]]>
+</system-err></testcase><testcase classname="OMAN_Sanity.Oman Sanity" name="Oman Export Quick AWB flow" status="hook_error" time="0"><error type="UnknownError" message="">
+<![CDATA[Traceback:
+]]>
+</error><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman Export Quick AWB flow
+    Given I launch the OMAN browser ... untested in 0.000s
+    When I open the login page ... untested in 0.000s
+    And I enter valid OMAN Freight Forwarder username and password ... untested in 0.000s
+    And I click the OMAN SignIn button ... untested in 0.000s
+    And I should see the OMAN HOME page ... untested in 0.000s
+    And I hover over the OMAN sidebar to expand it ... untested in 0.000s
+    And I search for Job Maintenance in the sidebar ... untested in 0.000s
+    And I click on Export Job Maintenance ... untested in 0.000s
+    And I should see the Export Job List label ... untested in 0.000s
+    Then I click the "+" button to add a new job ... untested in 0.000s
+    Then I should see the Create Quick AWB page ... untested in 0.000s
+    And I enter "157" in the Prefix field ... untested in 0.000s
+    And I enter AWB No in the MAWB No. field ... untested in 0.000s
+    And I enter "10" in the NoP field ... untested in 0.000s
+    And I enter "100" in the Gr Wt field ... untested in 0.000s
+    And I enter "1122" in the fltNo field ... untested in 0.000s
+    And I enter Flt date in the Flt date field ... untested in 0.000s
+    And I enter "PERISHABLE" in the Nature of Goods field ... untested in 0.000s
+    And I enter "PERISHABLE" in the Commodity field ... untested in 0.000s
+    And I select "PERISHABLE" from the SHC dropdown ... untested in 0.000s
+    And I select "SHIVAJI" in the Destination dropdown ... untested in 0.000s
+    When I click on Create Quick AWB SAVE button ... untested in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+[SCENARIO] Using Excel row 1 for: Oman Export Quick AWB flow
+[BROWSER] Launching chrome for scenario: Oman Export Quick AWB flow
+
+[AFTER-SCENARIO] Oman Export Quick AWB flow → HOOK_ERROR
+
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+ABORTED: HOOK-ERROR in before_scenario: KeyboardInterrupt
+
+
+]]>
+</system-err></testcase><testcase classname="OMAN_Sanity.Oman Sanity" name="Oman Export ACI flow" status="untested" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman Export ACI flow
+    Given I launch the OMAN browser ... untested in 0.000s
+    When I open the OMAN login page ... untested in 0.000s
+    And I enter valid OMAN Freight Forwarder username and password ... untested in 0.000s
+    And I click the OMAN SignIn button ... untested in 0.000s
+    And I should see the OMAN HOME page ... untested in 0.000s
+    And I hover over the OMAN sidebar to expand it ... untested in 0.000s
+    And I search for Job Maintenance in the sidebar ... untested in 0.000s
+    And I click on Export Job Maintenance ... untested in 0.000s
+    And I should see the Export Job List label ... untested in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="OMAN_Sanity.Oman Sanity" name="Oman Import ACI flow" status="untested" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman Import ACI flow
+    Given I launch the OMAN browser ... untested in 0.000s
+    When I open the login page ... untested in 0.000s
+    And I enter valid OMAN Freight Forwarder username and password ... untested in 0.000s
+    And I click the OMAN SignIn button ... untested in 0.000s
+    And I should see the OMAN HOME page ... untested in 0.000s
+    And I hover over the OMAN sidebar to expand it ... untested in 0.000s
+    And I search for Job Maintenance in the sidebar ... untested in 0.000s
+    And I click on Import Job Maintenance ... untested in 0.000s
+    And I should see the Import Job List label ... untested in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="OMAN_Sanity.Oman Sanity" name="Oman Import Quick AWB flow" status="untested" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman Import Quick AWB flow
+    Given I launch the OMAN browser ... untested in 0.000s
+    When I open the login page ... untested in 0.000s
+    And I enter valid OMAN Freight Forwarder username and password ... untested in 0.000s
+    And I click the OMAN SignIn button ... untested in 0.000s
+    And I should see the OMAN HOME page ... untested in 0.000s
+    And I hover over the OMAN sidebar to expand it ... untested in 0.000s
+    And I search for Job Maintenance in the sidebar ... untested in 0.000s
+    And I click on Import Job Maintenance ... untested in 0.000s
+    And I should see the Import Job List label ... untested in 0.000s
+    Then I click the "+" button to add a new job ... untested in 0.000s
+    Then I should see the Create Quick AWB page ... untested in 0.000s
+    And I enter "157" in the Prefix field ... untested in 0.000s
+    And I enter AWB No in the MAWB No. field ... untested in 0.000s
+    And I enter "10" in the NoP field ... untested in 0.000s
+    And I enter "100" in the Gr Wt field ... untested in 0.000s
+    And I enter "1122" in the fltNo field ... untested in 0.000s
+    And I enter Flt date in the Flt date field ... untested in 0.000s
+    And I enter "PERISHABLE" in the Nature of Goods field ... untested in 0.000s
+    And I enter "PERISHABLE" in the Commodity field ... untested in 0.000s
+    And I select "PERISHABLE" from the SHC dropdown ... untested in 0.000s
+    And I select "SHIVAJI" in the Destination dropdown ... untested in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="OMAN_Sanity.Oman Sanity" name="Oman StartUp" status="untested" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman StartUp
+    Given I launch the OMAN browser ... untested in 0.000s
+    When I open the OMAN login page ... untested in 0.000s
+    And I enter valid OMAN Freight Forwarder username and password ... untested in 0.000s
+    And I click the OMAN SignIn button ... untested in 0.000s
+    And I should see the OMAN HOME page ... untested in 0.000s
+    And Ad-hoc Requests label should be displayed ... untested in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

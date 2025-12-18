@@ -1,0 +1,724 @@
+<testsuite name="SingleScenario.Oman Single Scenario" tests="3" errors="0" failures="0" skipped="0" time="108.88" timestamp="2025-12-12T12:34:28.459712" hostname="HARSHAD-APRAJ"><testcase classname="SingleScenario.Oman Single Scenario" name="Oman StartUp 1" status="passed" time="44.44"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman StartUp 1
+    Given I launch the OMAN browser ... passed in 3.571s
+    When I open the OMAN login page ... passed in 12.393s
+    And I enter valid OMAN Freight Forwarder username and password ... passed in 2.024s
+    And I click the OMAN SignIn button ... passed in 4.237s
+    And I should see the OMAN HOME page ... passed in 18.019s
+    And Ad-hoc Requests label should be displayed ... passed in 4.196s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+INSIDE DASHBOARD PAGE
+
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 32: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I launch the OMAN browser → passed (3.571s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I open the OMAN login page → passed (12.393s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 65: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I enter valid OMAN Freight Forwarder username and password → passed (2.024s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 37: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I click the OMAN SignIn button → passed (4.237s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 38: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I should see the OMAN HOME page → passed (18.019s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 48: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: Ad-hoc Requests label should be displayed → passed (4.196s)'
+Arguments: ()
+
+]]>
+</system-err></testcase><testcase classname="SingleScenario.Oman Single Scenario" name="Oman StartUp 2" status="passed" time="35.987"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman StartUp 2
+    Given I launch the OMAN browser ... passed in 3.513s
+    When I open the OMAN login page ... passed in 9.484s
+    And I enter valid OMAN Freight Forwarder username and password ... passed in 2.159s
+    And I click the OMAN SignIn button ... passed in 4.372s
+    And I should see the OMAN HOME page ... passed in 13.789s
+    And Ad-hoc Requests label should be displayed ... passed in 2.670s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+INSIDE DASHBOARD PAGE
+
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 32: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I launch the OMAN browser → passed (3.513s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I open the OMAN login page → passed (9.484s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 65: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I enter valid OMAN Freight Forwarder username and password → passed (2.159s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 37: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I click the OMAN SignIn button → passed (4.372s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 38: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I should see the OMAN HOME page → passed (13.789s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 48: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: Ad-hoc Requests label should be displayed → passed (2.67s)'
+Arguments: ()
+
+]]>
+</system-err></testcase><testcase classname="SingleScenario.Oman Single Scenario" name="Oman StartUp 3" status="passed" time="28.453"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Oman StartUp 3
+    Given I launch the OMAN browser ... passed in 7.713s
+    When I open the OMAN login page ... passed in 6.234s
+    And I enter valid OMAN Freight Forwarder username and password ... passed in 1.966s
+    And I click the OMAN SignIn button ... passed in 4.257s
+    And I should see the OMAN HOME page ... passed in 5.684s
+    And Ad-hoc Requests label should be displayed ... passed in 2.599s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+INSIDE DASHBOARD PAGE
+
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 32: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I launch the OMAN browser → passed (7.713s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I open the OMAN login page → passed (6.234s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 65: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I enter valid OMAN Freight Forwarder username and password → passed (1.966s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 37: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I click the OMAN SignIn button → passed (4.257s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 38: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: I should see the OMAN HOME page → passed (5.684s)'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python313\Lib\logging\__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 48: character maps to <undefined>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Harshad.Apraj\AppData\Roaming\Python\Python313\Scripts\behave.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 294, in main
+    return run_behave(config)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\__main__.py", line 116, in run_behave
+    failed = runner.run()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1139, in run
+    return self.run_with_paths()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 1159, in run_with_paths
+    return self.run_model()
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 941, in run_model
+    failed = feature.run(self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 424, in run
+    failed = run_item.run(runner)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 1192, in run
+    if not step.run(runner):
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\model.py", line 2021, in run
+    runner.run_hook("after_step", self)
+  File "C:\Users\harshad.apraj\AppData\Roaming\Python\Python313\site-packages\behave\runner.py", line 770, in run_hook
+    self.hooks[hook_name](ctx, *args)
+  File "features\environment.py", line 58, in after_step
+    logger.info(f"Step: {step.name} → {step.status.name} ({step.duration}s)")
+Message: 'Step: Ad-hoc Requests label should be displayed → passed (2.599s)'
+Arguments: ()
+
+]]>
+</system-err></testcase></testsuite>
